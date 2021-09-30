@@ -3,7 +3,7 @@ This is a tool that assists you in cracking your Roblox Account Settings 4-digit
 
 ## Features
 - Starts with common and likely pins first.
-- Can continue where you left off.
+- Saves progress and can continue where you left off.
 - Takes time to go through due to Roblox request limits.
 
 ## Installation
