@@ -19,3 +19,4 @@ This is a tool that assists you in cracking your Roblox Account Settings 4-digit
 2. Go into the folder where the repository was cloned: `cd RobloxPinCracker`
 3. Use `nano` or your preferred text editor to edit `config-template.py` and save as `config.py` in the same folder.
 4. Run the script: `python3 pincracker.py`
+5. Done! To continue progress, run `python3 pincracker.py` again.
