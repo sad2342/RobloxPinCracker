@@ -1,14 +1,20 @@
-# roblox-pin-cracker
-Helps you recover your pin if you have lost it (takes time)
+# Roblox Pin Cracker
+This is a tool that assists you in cracking your Roblox Account Settings 4-digit PIN.
 
-# features
-- uses most common pins first
-- grabs likely pins automatically (birthday, last 4 characters of password, etc.)
-- takes time to go through pins due to roblox rate limits
+## Features
+- Starts with common and likely pins first.
+- Can continue where you left off.
+- Takes time to go through due to Roblox request limits.
 
-# requirements
-- python installed (I use version 3.7.0). make sure to add to path when installing
-- requests module. go to command prompt and type `pip install requests`
+## Installation
+### Prerequisites
+- Python >=3.6
+- [`requests` module](https://pypi.org/project/requests/) (`pip install requests`)
+- [git](https://github.com/git-guides/install-git)
+- A command prompt of your choice (Windows Powershell, Terminal, etc.)
+- `nano` or any other text editor of your choice
 
-# example
-![](https://cdn.discordapp.com/attachments/528005410192490556/804098168420696134/unknown.png)
+1. Clone this repository with the following command: `git clone https://github.com/Maytha8/RobloxPinCracker.git`
+2. Go into the folder where the repository was cloned: `cd RobloxPinCracker`
+3. Use `nano` or your preferred text editor to edit `config-template.py` and save as `config.py` in the same folder.
+4. Run the script: `python3 pincracker.py`
